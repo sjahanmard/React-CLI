@@ -1,0 +1,28 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjahanmard/React-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjahanmard/React-CLI/issues"
+  },
+  "homepage": "https://github.com/sjahanmard/React-CLI#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
