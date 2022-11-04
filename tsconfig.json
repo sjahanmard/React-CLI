@@ -5,8 +5,12 @@
     "target": "es5",
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "jsx": "react"
   },
   "lib": ["es2015"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "path": {
+    "templates": ["src/templates"]
+  }
 }

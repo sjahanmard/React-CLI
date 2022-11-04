@@ -1,0 +1,3 @@
+export * as CMODULENAME from "./index.module";
+export * as SMODULENAME from "./index.style";
+export * as UMODULENAME from "./index.utils";
