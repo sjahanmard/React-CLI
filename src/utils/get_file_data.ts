@@ -1,4 +1,6 @@
 import fs from "fs";
+import { templatesPath } from "..";
+import path from "path";
 
 export function getFileData(
   newPath: string,
@@ -6,8 +8,12 @@ export function getFileData(
   fileName: [string, string]
 ) {
   return fs
-    .readFileSync(`src/templates/module/${fileName[0]}.txt`, {
-      encoding: "utf-8",
-    })
+    .readFileSync(
+      path.join(templatesPath, "../../src") +
+        `/templates/module/${fileName[0]}.txt`,
+      {
+        encoding: "utf-8",
+      }
+    )
     ?.replace(/MODULENAME/g, moduleName);
 }

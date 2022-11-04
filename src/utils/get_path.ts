@@ -3,7 +3,7 @@ import path from "path";
 import { getDirectories } from "./get_directories";
 import inquirer from "inquirer";
 
-let finalPath = process.cwd() + "/src";
+let finalPath = process.cwd();
 
 export async function getPath(path: string = finalPath): Promise<string> {
   const answers = await inquirer.prompt({
