@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
 import { getPath, getName } from "./utils";
-import fs from "fs";
-import path from "path";
 import { createDir } from "./utils/create_dir";
 import { createFiles } from "./utils/create_files";
+import path from "path";
 
-export const templatesPath = __dirname + "/templates";
+export const templatesPath = path.join(__dirname, "../templates");
 
 export const fileNames: Array<[string, string]> = [
   ["index", "ts"],
