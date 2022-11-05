@@ -1,1 +1,7 @@
-export function MODULENAME() {}
+import * as S from './index.style';
+import * as T from './index.type';
+import * as F from './index.utils';
+
+export function MODULENAME(props:T.Props): T.ReactNode {
+    return <></>;
+}

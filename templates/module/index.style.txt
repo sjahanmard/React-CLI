@@ -1,1 +1,15 @@
-export function styles() {}
+import styled from "@emotion/styled";
+
+export const Flex = styled.div<{}>(({ theme }) => ({
+  display: "flex",
+}));
+
+export const FlexCol = styled.div<{}>(({ theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+}));
+
+export const Container = styled(FlexCol)<{}>(({ theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+}));
