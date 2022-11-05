@@ -7,13 +7,6 @@ import path from "path";
 
 export const templatesPath = path.join(__dirname, "../templates");
 
-export const fileNames: Array<[string, string]> = [
-  ["index", "ts"],
-  ["index.module", "tsx"],
-  ["index.style", "ts"],
-  ["index.utils", "ts"],
-];
-
 (async function () {
   const moduleName = getName();
   const modulePath = await getPath();

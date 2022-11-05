@@ -1,6 +1,5 @@
 import fs from "fs";
 import { templatesPath } from "..";
-import path from "path";
 
 export function getFileData(
   newPath: string,

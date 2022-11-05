@@ -1,5 +1,3 @@
-import { fileURLToPath } from "url";
-import path from "path";
 import { getDirectories } from "./get_directories";
 import inquirer from "inquirer";
 

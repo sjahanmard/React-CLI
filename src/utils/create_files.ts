@@ -1,5 +1,5 @@
 import fs from "fs";
-import { fileNames } from "..";
+import { fileNames } from "../config";
 import { getFileData } from "./get_file_data";
 
 export function createFiles(newPath: string, moduleName: string) {
